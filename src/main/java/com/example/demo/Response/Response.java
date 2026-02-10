@@ -15,4 +15,12 @@ public class Response <T>{
         return response;
 
     }
+
+    public static Response<Void> newFail(String errorMsg){
+        Response<Void> response = new Response<>();
+        response.setErrorMsg(errorMsg);
+        response.setSuccess(false);
+        return response;
+
+    }
 }
