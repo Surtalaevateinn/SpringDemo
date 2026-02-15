@@ -1,0 +1,142 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 D8B2-EA6E
+E:.
+│  .gitattributes
+│  .gitignore
+│  HELP.md
+│  list.txt
+│  mvnw
+│  mvnw.cmd
+│  pom.xml
+│  
+├─.idea
+│      .gitignore
+│      .name
+│      compiler.xml
+│      encodings.xml
+│      jarRepositories.xml
+│      jpa-buddy.xml
+│      misc.xml
+│      uiDesigner.xml
+│      vcs.xml
+│      workspace.xml
+│      
+├─.mvn
+│  └─wrapper
+│          maven-wrapper.properties
+│          
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─example
+│  │  │          └─demo
+│  │  │              │  DemoApplication.java
+│  │  │              │  OpenApiConfig.java
+│  │  │              │  
+│  │  │              ├─controller
+│  │  │              │      StudentController.java
+│  │  │              │      TestController.java
+│  │  │              │      
+│  │  │              ├─converter
+│  │  │              │      StudentConverter.java
+│  │  │              │      
+│  │  │              ├─dto
+│  │  │              │      StudentDto.java
+│  │  │              │      
+│  │  │              ├─entity
+│  │  │              │      Student.java
+│  │  │              │      
+│  │  │              ├─repository
+│  │  │              │  │  StudentRepository.java
+│  │  │              │  │  
+│  │  │              │  └─RepoImpl
+│  │  │              ├─Response
+│  │  │              │      Response.java
+│  │  │              │      
+│  │  │              └─service
+│  │  │                  │  StudentService.java
+│  │  │                  │  
+│  │  │                  └─ServImpl
+│  │  │                          StudentServiceImpl.java
+│  │  │                          
+│  │  └─resources
+│  │      │  application.properties
+│  │      │  
+│  │      ├─static
+│  │      └─templates
+│  └─test
+│      └─java
+│          └─com
+│              └─example
+│                  └─demo
+│                          DemoApplicationTests.java
+│                          
+└─target
+    │  demo-0.0.1-SNAPSHOT.jar
+    │  demo-0.0.1-SNAPSHOT.jar.original
+    │  
+    ├─classes
+    │  │  application.properties
+    │  │  
+    │  └─com
+    │      └─example
+    │          └─demo
+    │              │  DemoApplication.class
+    │              │  OpenApiConfig.class
+    │              │  
+    │              ├─controller
+    │              │      StudentController.class
+    │              │      TestController.class
+    │              │      
+    │              ├─converter
+    │              │      StudentConverter.class
+    │              │      
+    │              ├─dto
+    │              │      StudentDto.class
+    │              │      
+    │              ├─entity
+    │              │      Student.class
+    │              │      
+    │              ├─repository
+    │              │      StudentRepository.class
+    │              │      
+    │              ├─Response
+    │              │      Response.class
+    │              │      
+    │              └─service
+    │                  │  StudentService.class
+    │                  │  
+    │                  └─ServImpl
+    │                          StudentServiceImpl.class
+    │                          
+    ├─generated-sources
+    │  └─annotations
+    ├─generated-test-sources
+    │  └─test-annotations
+    ├─maven-archiver
+    │      pom.properties
+    │      
+    ├─maven-status
+    │  └─maven-compiler-plugin
+    │      ├─compile
+    │      │  └─default-compile
+    │      │          createdFiles.lst
+    │      │          inputFiles.lst
+    │      │          
+    │      └─testCompile
+    │          └─default-testCompile
+    │                  createdFiles.lst
+    │                  inputFiles.lst
+    │                  
+    ├─surefire-reports
+    │      2026-02-10T17-21-24_133.dumpstream
+    │      com.example.demo.DemoApplicationTests.txt
+    │      TEST-com.example.demo.DemoApplicationTests.xml
+    │      
+    └─test-classes
+        └─com
+            └─example
+                └─demo
+                        DemoApplicationTests.class
+                        
