@@ -9,6 +9,7 @@ services:
       - "3308:3306"
     volumes:
       - ./mysql_data:/var/lib/mysql
+      - ./sql/test.sql:/docker-entrypoint-initdb.d/test.sql
     # ----------------------
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
