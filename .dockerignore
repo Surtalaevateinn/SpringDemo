@@ -2,3 +2,5 @@
 .idea
 target/
 !target/*.jar
+mysql_data/
+redis_data/

@@ -16,6 +16,15 @@ services:
       timeout: 5s
       retries: 10
 
+  redis:
+    image: redis:7.0-alpine
+    container_name: demo-redis-1
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - ./redis_data:/data
+
   app:
     build: .
     container_name: demo-app-1
